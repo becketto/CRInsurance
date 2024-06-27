@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Risk Insurance</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        .container {
+            padding: 2rem;
+        }
+
+        .hero {
+            background-color: #141e26;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .about {
+            display: flex;
+            align-items: start;
+            gap: 2rem;
+        }
+
+        .about img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+
+        .about-content {
+            flex: 1;
+        }
+
+        @media (max-width: 768px) {
+            .about {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Complete Risk Insurance</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="home" class="hero">
+            <h1>Complete Risk Insurance</h1>
+            <p>Protecting what matters most to you</p>
+        </section>
+
+        <section id="services" class="services">
+            <article>
+                <h2>Life Insurance</h2>
+                <p>Secure your family's future with our comprehensive life insurance policies.</p>
+            </article>
+            <article>
+                <h2>Annuities</h2>
+                <p>Plan for a stable retirement with our flexible annuity options.</p>
+            </article>
+            <article>
+                <h2>Property & Casualty</h2>
+                <p>Coming soon! Protect your assets with our property and casualty insurance.</p>
+            </article>
+        </section>
+
+        <section id="about" class="about">
+            <img src="https://cdn.shopify.com/s/files/1/0830/0947/0774/files/CatherineGurevich.jpg?v=1719530522"
+                alt="Catherine Gurevich">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <h3>Catherine Gurevich</h3>
+                <p>Catherine Gurevich is the founder and CEO of Complete Risk Insurance. She is dedicated to providing
+                    comprehensive coverage
+                    solutions for individuals and families.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <small>&copy; 2024 Complete Risk Insurance. All rights reserved.</small>
+    </footer>
+</body>
+
+</html>
